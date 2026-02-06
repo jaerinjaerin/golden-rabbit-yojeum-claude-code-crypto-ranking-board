@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProfileImageSection matches snapshot 1`] = `
+<div>
+  <div
+    data-testid="card"
+  >
+    <div
+      data-testid="card-header"
+    >
+      <h3
+        data-testid="card-title"
+      >
+        프로필 이미지
+      </h3>
+    </div>
+    <div
+      class="flex flex-col items-center space-y-4"
+      data-testid="card-content"
+    >
+      <div
+        class="h-32 w-32"
+        data-testid="avatar"
+      >
+        <img
+          alt="프로필 이미지"
+          data-testid="avatar-image"
+        />
+        <div
+          class="text-2xl"
+          data-testid="avatar-fallback"
+        >
+          사용자
+        </div>
+      </div>
+      <button
+        class="w-full"
+        data-testid="button"
+        data-variant="outline"
+      >
+        이미지 변경
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProfilePage matches snapshot 1`] = `
+<div>
+  <div
+    data-testid="profile-layout"
+  >
+    Mocked ProfileLayout
+  </div>
+</div>
+`;
